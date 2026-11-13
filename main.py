@@ -1,3 +1,4 @@
+# Entrypoint: python3 /bot/main.py reads each case's .in from /input, writes .out to /output.
 # Deterministic: no randomness, no network, stdlib only — two runs are byte-identical.
 # polymarket-nvidia-ceo-forecast-01 entry: forecast each market's Yes price
 # for the 240 minutes after a checkpoint, as five quantiles.
